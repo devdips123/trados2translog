@@ -1,0 +1,54 @@
+<LogFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <VersionString></VersionString>
+  <startTime></startTime>
+  <endTime></endTime>
+  <Project>
+    <FileName></FileName>
+    <Description></Description>
+    <versionString />
+    <useSourceText></useSourceText>
+    <promptSubjectName></promptSubjectName>
+    <syncEnabled></syncEnabled>
+    <broadcastEnabled></broadcastEnabled>
+    <udpIP />
+    <udpPort></udpPort>
+    <signalInterval></signalInterval>
+    <useExtendedTranslations></useExtendedTranslations>
+    <showTimer></showTimer>
+    <maxWindow></maxWindow>
+    <ChineseKeys></ChineseKeys>
+    <fullScreen></fullScreen>
+    <lockWindows></lockWindows>
+
+    <Languages source="en" target="es" task="translating" />
+    <Plugins>
+      <Key_Logger />
+    </Plugins>
+    <Interface>
+      <Standard>
+        <pluginDependances />
+        <Settings>
+          <TargetBackgroundColor RGB="-1" />
+          <SourceBackgroundColor RGB="-1" />
+          <lineHeight source="1" target="1" />
+          <SourceText></SourceText>
+		  <TargetText></TargetText>
+          <TranslationWindow X="-8" Y="-8" Width="1280" Height="1024" Split="449" STO="True" VHO="Horizontal" />
+        </Settings>
+        <SourceField X="6" Y="56" Width="1272" Height="479" />
+        <TargetField X="6" Y="539" Width="1272" Height="483" />
+      </Standard>
+    </Interface>
+  </Project>
+  <Events>
+   
+  </Events>
+  <FinalText></FinalText>
+  <TranslationChar />
+  <SourceTextChar>
+    <CharPos Cursor="0" Value="S" X="3" Y="27" Width="20" Height="30" />
+  </SourceTextChar>
+  <FinalTextChar>
+    <CharPos Cursor="0" Value="S" X="3" Y="510" Width="20" Height="30" />
+  </FinalTextChar>
+</LogFile>
