@@ -6,7 +6,7 @@ Created on Mon Nov 11 16:11:21 2019
 @author: devdips123
 """
 
-from flask import Flask, make_response, request
+from flask import Flask, make_response, request, jsonify
 from Trados2Translog import main
 
 app = Flask(__name__)
@@ -14,9 +14,13 @@ app = Flask(__name__)
 def transform(input_file_name):
     return main(input_file_name)
 
+@app.route("/health_check")  
+def health():
+    return jsonify({"status": "UP"}), 200
+
 @app.route('/')
 def index():
-    return "hello world!!"
+    return "Welcome to Trados2Translog Utility"
 
 @app.route('/trados')
 def form():
