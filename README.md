@@ -2,6 +2,6 @@
 
 Trados to Translog conversion utility
 
-Build instructions
+Build instructions test
 
 docker build -t trados:1.0 .
