@@ -1,4 +1,7 @@
 # trados2translog
 
 Trados to Translog conversion utility
-New commit33
+
+Build instructions
+
+docker build -t trados:1.0 .
