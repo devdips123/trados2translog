@@ -1,6 +1,6 @@
 # trados2translog
 
-Trados to Translog conversion utility
+Trados to Translog conversion utility 2
 
 Build instructions test
 
